@@ -9,11 +9,17 @@ export default function App() {
     link.rel = 'stylesheet';
     link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
     document.head.appendChild(link);
-    
+
     return () => {
       document.head.removeChild(link);
     };
   }, []);
+
+  // PDF Download Function
+  const downloadPDF = () => {
+    // Use browser's print functionality - it's more reliable and the resume has excellent print styles
+    window.print();
+  };
 
   return (
     <>
@@ -146,6 +152,16 @@ export default function App() {
                 <a href="https://linkedin.com/in/merouane-amqor" className="text-slate-200 hover:text-slate-100 text-sm transition-colors">
                   linkedin.com/in/merouane-amqor
                 </a>
+              </div>
+              <div className="flex items-center justify-end gap-2 mt-2 print:hidden">
+                <button
+                  onClick={downloadPDF}
+                  className="bg-slate-600 hover:bg-slate-500 text-slate-200 px-3 py-1 rounded text-sm font-medium transition-colors flex items-center gap-2"
+                  title="Ouvre la boîte de dialogue d'impression pour sauvegarder en PDF"
+                >
+                  <i className="fas fa-print text-xs"></i>
+                  Imprimer/Sauvegarder PDF
+                </button>
               </div>
             </div>
           </div>
