@@ -491,13 +491,17 @@ export default function PureSoftwareEngineerResume() {
 
           {/* Navigation */}
           <div className="mt-8 pt-4 border-t border-slate-200 text-center print:hidden">
-            <div className="flex justify-center gap-4">
-              <a href="/" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
-                ← Version Technical Lead
+            <div className="flex justify-center gap-3 text-sm">
+              <a href="/" className="text-slate-600 hover:text-slate-800 font-medium transition-colors">
+                Technical Lead
               </a>
-              <span className="text-slate-400">|</span>
+              <span className="text-slate-400">•</span>
+              <a href="/full-stack-developer" className="text-green-600 hover:text-green-800 font-medium transition-colors">
+                Full-Stack Developer
+              </a>
+              <span className="text-slate-400">•</span>
               <a href="/rails" className="text-red-600 hover:text-red-800 font-medium transition-colors">
-                Version Ruby on Rails →
+                Ruby on Rails
               </a>
             </div>
           </div>

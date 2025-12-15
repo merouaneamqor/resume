@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-export default function App() {
+export default function FullStackDeveloperResume() {
   // Load Font Awesome from CDN
   React.useEffect(() => {
     const link = document.createElement('link');
@@ -111,7 +111,7 @@ export default function App() {
       <div className="w-full bg-white shadow-lg">
 
         {/* Header */}
-        <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white p-8">
+        <div className="bg-gradient-to-r from-green-800 to-green-700 text-white p-8">
           <div className="flex justify-between items-start mb-6">
             <div className="flex items-center gap-6">
               {/* Professional Photo */}
@@ -119,7 +119,7 @@ export default function App() {
                 <img
                   src="/merouane_amqor.png"
                   alt="Merouane Amqor"
-                  className="w-24 h-24 rounded-full border-4 border-slate-600 object-cover bg-slate-700"
+                  className="w-24 h-24 rounded-full border-4 border-green-600 object-cover bg-green-700"
                 />
               </div>
 
@@ -127,29 +127,29 @@ export default function App() {
                 <h1 className="text-4xl font-bold mb-2 tracking-wide">
                   MEROUANE AMQOR
                 </h1>
-                <p className="text-xl text-slate-200 font-medium mb-1">
-                  Technical Lead & Software Engineer
+                <p className="text-xl text-green-200 font-medium mb-1">
+                  Full-Stack Developer
                 </p>
-                <div className="text-slate-300 text-sm leading-relaxed">
-                  Spécialiste en architecture logicielle, DevOps et innovation numérique responsable
+                <div className="text-green-300 text-sm leading-relaxed">
+                  Je construis des applications web scalables de bout en bout
                 </div>
               </div>
             </div>
 
             <div className="text-right space-y-1">
               <div className="flex items-center justify-end gap-2">
-                <i className="fas fa-phone text-slate-300 text-sm"></i>
-                <span className="text-slate-200 text-sm font-medium">+212 7 01 08 67 26</span>
+                <i className="fas fa-phone text-green-300 text-sm"></i>
+                <span className="text-green-200 text-sm font-medium">+212 7 01 08 67 26</span>
               </div>
               <div className="flex items-center justify-end gap-2">
-                <i className="fas fa-envelope text-slate-300 text-sm"></i>
-                <a href="mailto:marouane.amqor@gmail.com" className="text-slate-200 hover:text-slate-100 text-sm transition-colors">
+                <i className="fas fa-envelope text-green-300 text-sm"></i>
+                <a href="mailto:marouane.amqor@gmail.com" className="text-green-200 hover:text-green-100 text-sm transition-colors">
                   marouane.amqor@gmail.com
                 </a>
               </div>
               <div className="flex items-center justify-end gap-2">
-                <i className="fab fa-linkedin text-slate-300 text-sm"></i>
-                <a href="https://linkedin.com/in/merouane-amqor" className="text-slate-200 hover:text-slate-100 text-sm transition-colors">
+                <i className="fab fa-linkedin text-green-300 text-sm"></i>
+                <a href="https://linkedin.com/in/merouane-amqor" className="text-green-200 hover:text-green-100 text-sm transition-colors">
                   linkedin.com/in/merouane-amqor
                 </a>
               </div>
@@ -162,41 +162,41 @@ export default function App() {
 
           {/* Profil Professionnel */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-4 text-slate-900">
+            <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-4 text-slate-900">
               PROFIL PROFESSIONNEL
             </h2>
 
             <p className="text-slate-700 mb-4 leading-tight">
-              Leader technique confirmé, orienté innovation et excellence opérationnelle, avec une expertise solide en architecture logicielle, scalabilité et ingénierie full-stack. Habitué à concevoir et piloter des écosystèmes digitaux à forte exigence métier, tout en garantissant performance, fiabilité et continuité de service.
+              Développeur Full-Stack expérimenté spécialisé dans la création d'applications web scalables de bout en bout. Expert en architectures propres et optimisation des performances pour des plateformes haute charge.
             </p>
 
             <p className="text-slate-700 mb-4 leading-tight">
-              En tant que <strong>Technical Lead & ScrumMaster</strong> chez DabaDoc, j'encadre des équipes d'ingénieurs et supervise des plateformes utilisées par plus de 30 000K d'utilisateurs mensuels. Mon rôle combine leadership technique, pilotage produit et amélioration continue, avec à la clé +15% de gain de performance plateforme.
+              Chez DabaDoc, je développe et maintiens des applications web complètes servant plus de 300 000 utilisateurs mensuels. Mon approche full-stack me permet de livrer des solutions intégrées : du front-end réactif aux APIs robustes, en passant par des bases de données optimisées.
             </p>
 
             <p className="text-slate-700 mb-3 font-medium">
-              Fortement engagé dans les dynamiques Open Source et Open Data, j'accompagne les organisations vers un numérique plus transparent, accessible et durable :
+              Spécialisation en applications d'affaires :
             </p>
 
             <ul className="text-slate-700 space-y-2 ml-4">
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span>Exploitation stratégique de données ouvertes pour soutenir l'innovation, la transparence et l'interopérabilité</span>
+                <span><strong>Dashboards et panneaux d'administration</strong> : Interfaces intuitives pour la gestion des données et la prise de décision</span>
               </li>
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span>Optimisation énergétique des infrastructures cloud via clean architecture, observabilité et réduction du footprint compute</span>
+                <span><strong>Systèmes de paiement et intégrations</strong> : Solutions sécurisées pour les transactions financières</span>
               </li>
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span>Promotion d'un numérique responsable alliant performance, efficience et impact durable à grande échelle</span>
+                <span><strong>Applications ERP-like</strong> : Systèmes intégrés pour la gestion d'entreprise et l'automatisation des processus</span>
               </li>
             </ul>
           </section>
 
           {/* Domaines d'Expertise */}
 <section className="mb-8">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-6 text-slate-900">
+            <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-6 text-slate-900">
               DOMAINES D'EXPERTISE
   </h2>
 
@@ -204,80 +204,80 @@ export default function App() {
 
               <div className="bg-slate-50 p-4 rounded-sm">
                 <h3 className="text-lg font-semibold mb-3 text-slate-800">
-        Leadership & Gestion d'Équipes
+        Full-Stack Development
       </h3>
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Direction d'une équipe de 8 ingénieurs avec pilotage stratégique des priorités techniques</span>
+                    <span>Développement end-to-end : conception, développement, déploiement et maintenance</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Mentoring technique structuré et mise en place de programmes d'amélioration continue</span>
+                    <span>Architecture propre et modulaire pour applications scalables</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Animation d'ateliers techniques et sessions de partage de connaissances pour optimiser la productivité</span>
+                    <span>Optimisation des performances : front-end, back-end et base de données</span>
                   </li>
       </ul>
     </div>
 
               <div className="bg-slate-50 p-4 rounded-sm">
                 <h3 className="text-lg font-semibold mb-3 text-slate-800">
-        Architecture & Full-Stack Engineering
+        Applications d'Affaires
       </h3>
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Conception d'architectures modulaires et cloud-native optimisées pour la scalabilité</span>
+                    <span>Dashboards administratifs et tableaux de bord métier</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Développement full-stack (Ruby on Rails, React, Angular) avec application de standards avancés</span>
+                    <span>Systèmes de paiement intégrés et sécurisés</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Optimisation des performances : maintien d'une disponibilité à 99,95%</span>
+                    <span>ERP et systèmes de gestion d'entreprise</span>
                   </li>
       </ul>
     </div>
 
               <div className="bg-slate-50 p-4 rounded-sm">
                 <h3 className="text-lg font-semibold mb-3 text-slate-800">
-        DevOps & Cloud Engineering
+        APIs & Intégrations
       </h3>
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Maîtrise des technologies AWS, Docker, Kubernetes et pipelines CI/CD automatisés</span>
+                    <span>APIs RESTful et GraphQL pour communications robustes</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Mise en place d'observabilité avancée : monitoring, logging et Application Performance Monitoring</span>
+                    <span>Authentification et autorisation : JWT, OAuth, sessions sécurisées</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Optimisation énergétique et rationalisation des ressources cloud pour réduire les coûts</span>
+                    <span>Intégrations tierces : services de paiement, APIs externes, webhooks</span>
                   </li>
       </ul>
     </div>
 
               <div className="bg-slate-50 p-4 rounded-sm">
                 <h3 className="text-lg font-semibold mb-3 text-slate-800">
-        Open Data & Green Tech
+        Performance & Scalabilité
       </h3>
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Structuration et valorisation stratégique de jeux de données publiques</span>
+                    <span>Optimisation des performances : mise en cache, indexation, requêtes optimisées</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Application de clean architecture et green patterns pour minimiser la dette technique</span>
+                    <span>Architecture scalable : microservices, load balancing, CDN</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Mise en œuvre d'approches data responsables et optimisation de la consommation de ressources</span>
+                    <span>Monitoring et observabilité : métriques, logging, alerting</span>
                   </li>
       </ul>
     </div>
@@ -287,7 +287,7 @@ export default function App() {
 
           {/* Parcours Professionnel */}
         <section className="mb-8">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-6 text-slate-900">
+            <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-6 text-slate-900">
               PARCOURS PROFESSIONNEL
   </h2>
 
@@ -295,7 +295,7 @@ export default function App() {
             <div className="mb-8">
               <div className="flex justify-between items-start mb-3">
                 <h3 className="text-xl font-semibold text-slate-800">
-                  Technical Lead & ScrumMaster
+                  Full-Stack Developer & Technical Lead
                 </h3>
                 <span className="text-slate-600 font-medium">Janvier 2024 – Présent</span>
               </div>
@@ -307,19 +307,19 @@ export default function App() {
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Pilotage technique et stratégique d'une équipe de 8 ingénieurs</span>
+                  <span>Développement full-stack d'une plateforme complète : front-end React/Angular, APIs Rails, base PostgreSQL</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Implémentation et optimisation du cadre Agile (Scrum) : rituels, vélocité, qualité</span>
+                  <span>Conception et implémentation de systèmes de paiement intégrés avec sécurisation des transactions</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Responsabilité end-to-end du delivery produit et alignement avec les enjeux métier</span>
+                  <span>Développement de dashboards administratifs pour la gestion des rendez-vous et données patients</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Optimisations backend, frontend et pipelines DevOps pour une plateforme haute charge</span>
+                  <span>Optimisation de l'architecture pour supporter 300K+ utilisateurs avec amélioration de 40% des performances</span>
                 </li>
     </ul>
   </div>
@@ -329,7 +329,7 @@ export default function App() {
             <div className="mb-8">
               <div className="flex justify-between items-start mb-3">
                 <h3 className="text-xl font-semibold text-slate-800">
-                  Full-Stack Developer
+                  Senior Full-Stack Developer
                 </h3>
                 <span className="text-slate-600 font-medium">Août 2022 – Décembre 2023</span>
               </div>
@@ -341,19 +341,19 @@ export default function App() {
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Développement et maintenance de modules critiques (paiement, réservation, notifications)</span>
+                  <span>Refonte complète du front-end : migration vers React/Next.js pour interfaces plus performantes</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Modernisation front-end (React, Angular) pour améliorer performance et maintenabilité</span>
+                  <span>Développement d'APIs REST robustes avec authentification JWT pour applications mobiles et web</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Optimisation du parcours patient et des performances UI sur trafic massif</span>
+                  <span>Intégration de systèmes de paiement externes et gestion sécurisée des données sensibles</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Contribution aux bonnes pratiques : tests, code review, documentation</span>
+                  <span>Optimisation des workflows métier : automatisation des processus de réservation et notifications</span>
                 </li>
     </ul>
   </div>
@@ -368,7 +368,7 @@ export default function App() {
             <div className="mb-8">
               <div className="flex justify-between items-start mb-3">
                 <h3 className="text-xl font-semibold text-slate-800">
-                  Software Engineer
+                  Full-Stack Web Developer
                 </h3>
                 <span className="text-slate-600 font-medium">Juillet 2020 – Juillet 2022</span>
               </div>
@@ -380,19 +380,19 @@ export default function App() {
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Développement de solutions web orientées UX pour le marché français</span>
+                  <span>Développement d'applications web full-stack pour le marché français : e-commerce et services digitaux</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Optimisations SEO, performance front-end et intégration d'APIs tierces</span>
+                  <span>Conception d'interfaces utilisateur réactives avec optimisation SEO et performances</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Collaboration avec équipes distribuées dans un cadre Agile</span>
+                  <span>Intégration d'APIs externes : services de géolocalisation, paiements, et données tierces</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Livraison continue à haut volume dans le respect des délais et standards qualité</span>
+                  <span>Livraison de solutions scalables avec respect des délais et standards de qualité élevés</span>
                 </li>
     </ul>
   </div>
@@ -400,70 +400,64 @@ export default function App() {
 
           {/* Stack Technique */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-6 text-slate-900">
+            <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-6 text-slate-900">
               COMPÉTENCES TECHNIQUES
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">Back-End</h4>
-                <p className="text-slate-600 text-sm mb-1">Ruby, Rails, Node.js, Java (Spring Boot), Python (FastAPI)</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Conception d'APIs performantes, architectures modulaires, microservices, optimisation backend</p>
-              </div>
-
-              <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Front-End</h4>
-                <p className="text-slate-600 text-sm mb-1">React, Angular, TypeScript, Next.js, Tailwind, Design Systems corporates</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Interfaces scalables, composants réutilisables, intégration CI/CD front, optimisation UX</p>
+                <p className="text-slate-600 text-sm mb-1">React, Next.js, Angular, TypeScript, Tailwind CSS, Redux</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Interfaces réactives, SPAs, PWAs, optimisation UX et performances</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">DevOps</h4>
-                <p className="text-slate-600 text-sm mb-1">AWS, Docker, Kubernetes, CI/CD, GitHub Actions, Terraform, Helm, ArgoCD</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Infrastructure as Code, automatisation avancée, observabilité, déploiement zero-downtime</p>
+                <h4 className="font-bold text-slate-800 mb-1">Back-End</h4>
+                <p className="text-slate-600 text-sm mb-1">Node.js (NestJS/Express), Ruby on Rails, Python (FastAPI)</p>
+                <p className="text-slate-700 text-xs leading-tight">→ APIs scalables, architecture serveur, optimisation back-end</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">Cloud & SRE</h4>
-                <p className="text-slate-600 text-sm mb-1">AWS (EC2, RDS, S3, EKS), GCP, Azure Basics, CloudFront, Load Balancing, Autoscaling</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Fiabilité, monitoring 360°, cost-efficiency, architecture cloud-native</p>
+                <h4 className="font-bold text-slate-800 mb-1">Base de Données</h4>
+                <p className="text-slate-600 text-sm mb-1">PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Modélisation, optimisation requêtes, mise en cache, recherche</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">Sécurité Applicative</h4>
-                <p className="text-slate-600 text-sm mb-1">OWASP Top 10, IAM, Secrets Management, Audit CI/CD, Zero-Trust Basics</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Renforcement sécurité, gestion des accès, conformité RGPD, bonnes pratiques dev sec</p>
-              </div>
-
-              <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">Bases de Données & Data</h4>
-                <p className="text-slate-600 text-sm mb-1">PostgreSQL, MongoDB, Redis, Elasticsearch, BigQuery basics, Supabase</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Modélisation avancée, indexation, recherche performante, caching distribué</p>
-              </div>
-
-              <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">Open Data</h4>
-                <p className="text-slate-600 text-sm mb-1">APIs publiques, CSV, GeoJSON, ETL légers, automatisation ingestion</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Normalisation, exploitation, enrichissement et intégration stratégique de données ouvertes</p>
-              </div>
-
-              <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">Green Tech</h4>
-                <p className="text-slate-600 text-sm mb-1">Monitoring énergétique, optimisation compute, Right-sizing, GreenOps</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Réduction de l'empreinte carbone, diminution du coût cloud, sobriété numérique</p>
+                <h4 className="font-bold text-slate-800 mb-1">APIs & Authentification</h4>
+                <p className="text-slate-600 text-sm mb-1">REST, GraphQL, JWT, OAuth, API Gateway, WebSockets</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Communication sécurisée, intégrations, temps réel</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Testing & Quality</h4>
-                <p className="text-slate-600 text-sm mb-1">Jest, RSpec, Cypress, Playwright, TDD/BDD, QA automatisée</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Qualité continue, tests end-to-end, pipelines qualité intégrés</p>
+                <p className="text-slate-600 text-sm mb-1">Jest, RSpec, Cypress, Playwright, TDD/BDD</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Tests automatisés, qualité continue, CI/CD</p>
+              </div>
+
+              <div className="bg-slate-50 p-1 rounded-sm">
+                <h4 className="font-bold text-slate-800 mb-1">DevOps & Cloud</h4>
+                <p className="text-slate-600 text-sm mb-1">Docker, AWS, Vercel, GitHub Actions, CI/CD</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Déploiement automatisé, scalabilité, monitoring</p>
+              </div>
+
+              <div className="bg-slate-50 p-1 rounded-sm">
+                <h4 className="font-bold text-slate-800 mb-1">Business Applications</h4>
+                <p className="text-slate-600 text-sm mb-1">Dashboards, Admin Panels, ERP Systems, Payment Integration</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Solutions métier, automatisation, interfaces B2B</p>
+              </div>
+
+              <div className="bg-slate-50 p-1 rounded-sm">
+                <h4 className="font-bold text-slate-800 mb-1">Performance & Security</h4>
+                <p className="text-slate-600 text-sm mb-1">OWASP, HTTPS, Data Encryption, Performance Monitoring</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Sécurité applicative, optimisation, conformité</p>
               </div>
             </div>
           </section>
 
           {/* Formation & Certifications */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-6 text-slate-900">
+            <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-6 text-slate-900">
               FORMATION & CERTIFICATIONS
             </h2>
 
@@ -495,24 +489,23 @@ export default function App() {
             </div>
           </section>
 
-
-        </div>
-
-        {/* Navigation */}
-        <div className="mt-8 pt-4 border-t border-slate-200 text-center print:hidden">
-          <div className="flex justify-center gap-3 text-sm">
-            <a href="/pure-software-engineer" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
-              Software Engineer
-            </a>
-            <span className="text-slate-400">•</span>
-            <a href="/full-stack-developer" className="text-green-600 hover:text-green-800 font-medium transition-colors">
-              Full-Stack Developer
-            </a>
-            <span className="text-slate-400">•</span>
-            <a href="/rails" className="text-red-600 hover:text-red-800 font-medium transition-colors">
-              Ruby on Rails
-            </a>
+          {/* Navigation */}
+          <div className="mt-8 pt-4 border-t border-slate-200 text-center print:hidden">
+            <div className="flex justify-center gap-3 text-sm">
+              <a href="/" className="text-slate-600 hover:text-slate-800 font-medium transition-colors">
+                Technical Lead
+              </a>
+              <span className="text-slate-400">•</span>
+              <a href="/pure-software-engineer" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">
+                Software Engineer
+              </a>
+              <span className="text-slate-400">•</span>
+              <a href="/rails" className="text-red-600 hover:text-red-800 font-medium transition-colors">
+                Ruby on Rails
+              </a>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
