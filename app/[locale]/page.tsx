@@ -131,7 +131,7 @@ export default function App() {
                   Technical Lead & Software Engineer
                 </p>
                 <div className="text-slate-300 text-sm leading-relaxed">
-                  Specialist in software architecture, DevOps and responsible digital innovation
+                  Spécialiste en architecture logicielle, DevOps et innovation numérique responsable
                 </div>
               </div>
             </div>
@@ -160,64 +160,64 @@ export default function App() {
         {/* Content */}
         <div className="p-8">
 
-          {/* Professional Profile */}
+          {/* Profil Professionnel */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-4 text-slate-900">
-              PROFESSIONAL PROFILE
+              PROFIL PROFESSIONNEL
             </h2>
 
             <p className="text-slate-700 mb-4 leading-tight">
-              Experienced technical leader, focused on innovation and operational excellence, with solid expertise in software architecture, scalability and full-stack engineering. Accustomed to designing and managing digital ecosystems with high business requirements, while ensuring performance, reliability and service continuity.
+              Leader technique confirmé, orienté innovation et excellence opérationnelle, avec une expertise solide en architecture logicielle, scalabilité et ingénierie full-stack. Habitué à concevoir et piloter des écosystèmes digitaux à forte exigence métier, tout en garantissant performance, fiabilité et continuité de service.
             </p>
 
             <p className="text-slate-700 mb-4 leading-tight">
-              As <strong>Technical Lead & ScrumMaster</strong> at DabaDoc, I lead engineering teams and oversee platforms used by more than 30,000K monthly users. My role combines technical leadership, product management and continuous improvement, resulting in +15% platform performance gain.
+              En tant que <strong>Technical Lead & ScrumMaster</strong> chez DabaDoc, j'encadre des équipes d'ingénieurs et supervise des plateformes utilisées par plus de 30 000K d'utilisateurs mensuels. Mon rôle combine leadership technique, pilotage produit et amélioration continue, avec à la clé +15% de gain de performance plateforme.
             </p>
 
             <p className="text-slate-700 mb-3 font-medium">
-              Strongly committed to Open Source and Open Data dynamics, I help organizations move towards a more transparent, accessible and sustainable digital future:
+              Fortement engagé dans les dynamiques Open Source et Open Data, j'accompagne les organisations vers un numérique plus transparent, accessible et durable :
             </p>
 
             <ul className="text-slate-700 space-y-2 ml-4">
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span>Strategic exploitation of open data to support innovation, transparency and interoperability</span>
+                <span>Exploitation stratégique de données ouvertes pour soutenir l'innovation, la transparence et l'interopérabilité</span>
               </li>
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span>Energy optimization of cloud infrastructures through clean architecture, observability and compute footprint reduction</span>
+                <span>Optimisation énergétique des infrastructures cloud via clean architecture, observabilité et réduction du footprint compute</span>
               </li>
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span>Promotion of responsible digital practices combining performance, efficiency and sustainable impact at scale</span>
+                <span>Promotion d'un numérique responsable alliant performance, efficience et impact durable à grande échelle</span>
               </li>
             </ul>
           </section>
 
-          {/* Areas of Expertise */}
+          {/* Domaines d'Expertise */}
 <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-6 text-slate-900">
-              AREAS OF EXPERTISE
+              DOMAINES D'EXPERTISE
   </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
               <div className="bg-slate-50 p-4 rounded-sm">
                 <h3 className="text-lg font-semibold mb-3 text-slate-800">
-        Leadership & Team Management
+        Leadership & Gestion d'Équipes
       </h3>
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Leading a team of 8 engineers with strategic management of technical priorities</span>
+                    <span>Direction d'une équipe de 8 ingénieurs avec pilotage stratégique des priorités techniques</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Structured technical mentoring and implementation of continuous improvement programs</span>
+                    <span>Mentoring technique structuré et mise en place de programmes d'amélioration continue</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Facilitating technical workshops and knowledge sharing sessions to optimize productivity</span>
+                    <span>Animation d'ateliers techniques et sessions de partage de connaissances pour optimiser la productivité</span>
                   </li>
       </ul>
     </div>
@@ -229,15 +229,15 @@ export default function App() {
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Design of modular and cloud-native architectures optimized for scalability</span>
+                    <span>Conception d'architectures modulaires et cloud-native optimisées pour la scalabilité</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Full-stack development (Ruby on Rails, React, Angular) with application of advanced standards</span>
+                    <span>Développement full-stack (Ruby on Rails, React, Angular) avec application de standards avancés</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Performance optimization: maintaining 99.95% availability</span>
+                    <span>Optimisation des performances : maintien d'une disponibilité à 99,95%</span>
                   </li>
       </ul>
     </div>
@@ -249,15 +249,15 @@ export default function App() {
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Mastery of AWS, Docker, Kubernetes technologies and automated CI/CD pipelines</span>
+                    <span>Maîtrise des technologies AWS, Docker, Kubernetes et pipelines CI/CD automatisés</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Implementation of advanced observability: monitoring, logging and Application Performance Monitoring</span>
+                    <span>Mise en place d'observabilité avancée : monitoring, logging et Application Performance Monitoring</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Energy optimization and cloud resource rationalization to reduce costs</span>
+                    <span>Optimisation énergétique et rationalisation des ressources cloud pour réduire les coûts</span>
                   </li>
       </ul>
     </div>
@@ -269,15 +269,15 @@ export default function App() {
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Structuring and strategic valorization of public datasets</span>
+                    <span>Structuration et valorisation stratégique de jeux de données publiques</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Application of clean architecture and green patterns to minimize technical debt</span>
+                    <span>Application de clean architecture et green patterns pour minimiser la dette technique</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Implementation of responsible data approaches and resource consumption optimization</span>
+                    <span>Mise en œuvre d'approches data responsables et optimisation de la consommation de ressources</span>
                   </li>
       </ul>
     </div>
@@ -285,10 +285,10 @@ export default function App() {
   </div>
 </section>
 
-          {/* Professional Experience */}
+          {/* Parcours Professionnel */}
         <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-6 text-slate-900">
-              PROFESSIONAL EXPERIENCE
+              PARCOURS PROFESSIONNEL
   </h2>
 
             {/* Technical Lead */}
@@ -297,29 +297,29 @@ export default function App() {
                 <h3 className="text-xl font-semibold text-slate-800">
                   Technical Lead & ScrumMaster
                 </h3>
-                <span className="text-slate-600 font-medium">January 2024 – Present</span>
+                <span className="text-slate-600 font-medium">Janvier 2024 – Présent</span>
               </div>
               <div className="mb-2">
                 <span className="text-lg text-slate-700 font-medium">DabaDoc</span>
-                <span className="text-slate-600 ml-2">• Telemedicine platform</span>
+                <span className="text-slate-600 ml-2">• Plateforme de télémédecine</span>
     </div>
 
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Technical and strategic leadership of a team of 8 engineers</span>
+                  <span>Pilotage technique et stratégique d'une équipe de 8 ingénieurs</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Implementation and optimization of Agile framework (Scrum): rituals, velocity, quality</span>
+                  <span>Implémentation et optimisation du cadre Agile (Scrum) : rituels, vélocité, qualité</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>End-to-end responsibility for product delivery and alignment with business objectives</span>
+                  <span>Responsabilité end-to-end du delivery produit et alignement avec les enjeux métier</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Backend, frontend and DevOps pipeline optimizations for a high-traffic platform</span>
+                  <span>Optimisations backend, frontend et pipelines DevOps pour une plateforme haute charge</span>
                 </li>
     </ul>
   </div>
@@ -331,29 +331,29 @@ export default function App() {
                 <h3 className="text-xl font-semibold text-slate-800">
                   Full-Stack Developer
                 </h3>
-                <span className="text-slate-600 font-medium">August 2022 – December 2023</span>
+                <span className="text-slate-600 font-medium">Août 2022 – Décembre 2023</span>
               </div>
               <div className="mb-2">
                 <span className="text-lg text-slate-700 font-medium">DabaDoc</span>
-                <span className="text-slate-600 ml-2">• Telemedicine platform</span>
+                <span className="text-slate-600 ml-2">• Plateforme de télémédecine</span>
     </div>
 
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Development and maintenance of critical modules (payment, booking, notifications)</span>
+                  <span>Développement et maintenance de modules critiques (paiement, réservation, notifications)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Front-end modernization (React, Angular) to improve performance and maintainability</span>
+                  <span>Modernisation front-end (React, Angular) pour améliorer performance et maintenabilité</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Patient journey optimization and UI performance on high traffic</span>
+                  <span>Optimisation du parcours patient et des performances UI sur trafic massif</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Contribution to best practices: testing, code review, documentation</span>
+                  <span>Contribution aux bonnes pratiques : tests, code review, documentation</span>
                 </li>
     </ul>
   </div>
@@ -370,110 +370,110 @@ export default function App() {
                 <h3 className="text-xl font-semibold text-slate-800">
                   Software Engineer
                 </h3>
-                <span className="text-slate-600 font-medium">July 2020 – July 2022</span>
+                <span className="text-slate-600 font-medium">Juillet 2020 – Juillet 2022</span>
               </div>
               <div className="mb-2">
                 <span className="text-lg text-slate-700 font-medium">Majorel</span>
-                <span className="text-slate-600 ml-2">• Digital services for Solocal / Pages Jaunes</span>
+                <span className="text-slate-600 ml-2">• Services numériques pour Solocal / Pages Jaunes</span>
     </div>
 
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Development of UX-oriented web solutions for the French market</span>
+                  <span>Développement de solutions web orientées UX pour le marché français</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>SEO optimizations, front-end performance and third-party API integration</span>
+                  <span>Optimisations SEO, performance front-end et intégration d'APIs tierces</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Collaboration with distributed teams in an Agile framework</span>
+                  <span>Collaboration avec équipes distribuées dans un cadre Agile</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>High-volume continuous delivery respecting deadlines and quality standards</span>
+                  <span>Livraison continue à haut volume dans le respect des délais et standards qualité</span>
                 </li>
     </ul>
   </div>
 </section>
 
-          {/* Technical Stack */}
+          {/* Stack Technique */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-6 text-slate-900">
-              TECHNICAL SKILLS
+              COMPÉTENCES TECHNIQUES
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Back-End</h4>
                 <p className="text-slate-600 text-sm mb-1">Ruby, Rails, Node.js, Java (Spring Boot), Python (FastAPI)</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Design of performant APIs, modular architectures, microservices, backend optimization</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Conception d'APIs performantes, architectures modulaires, microservices, optimisation backend</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Front-End</h4>
                 <p className="text-slate-600 text-sm mb-1">React, Angular, TypeScript, Next.js, Tailwind, Design Systems corporates</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Scalable interfaces, reusable components, front-end CI/CD integration, UX optimization</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Interfaces scalables, composants réutilisables, intégration CI/CD front, optimisation UX</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">DevOps</h4>
                 <p className="text-slate-600 text-sm mb-1">AWS, Docker, Kubernetes, CI/CD, GitHub Actions, Terraform, Helm, ArgoCD</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Infrastructure as Code, advanced automation, observability, zero-downtime deployment</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Infrastructure as Code, automatisation avancée, observabilité, déploiement zero-downtime</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Cloud & SRE</h4>
                 <p className="text-slate-600 text-sm mb-1">AWS (EC2, RDS, S3, EKS), GCP, Azure Basics, CloudFront, Load Balancing, Autoscaling</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Reliability, 360° monitoring, cost-efficiency, cloud-native architecture</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Fiabilité, monitoring 360°, cost-efficiency, architecture cloud-native</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Sécurité Applicative</h4>
                 <p className="text-slate-600 text-sm mb-1">OWASP Top 10, IAM, Secrets Management, Audit CI/CD, Zero-Trust Basics</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Security hardening, access management, GDPR compliance, dev sec best practices</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Renforcement sécurité, gestion des accès, conformité RGPD, bonnes pratiques dev sec</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">Databases & Data</h4>
+                <h4 className="font-bold text-slate-800 mb-1">Bases de Données & Data</h4>
                 <p className="text-slate-600 text-sm mb-1">PostgreSQL, MongoDB, Redis, Elasticsearch, BigQuery basics, Supabase</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Advanced modeling, indexing, performant search, distributed caching</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Modélisation avancée, indexation, recherche performante, caching distribué</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Open Data</h4>
-                <p className="text-slate-600 text-sm mb-1">Public APIs, CSV, GeoJSON, lightweight ETL, ingestion automation</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Normalization, exploitation, enrichment and strategic integration of open data</p>
+                <p className="text-slate-600 text-sm mb-1">APIs publiques, CSV, GeoJSON, ETL légers, automatisation ingestion</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Normalisation, exploitation, enrichissement et intégration stratégique de données ouvertes</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Green Tech</h4>
                 <p className="text-slate-600 text-sm mb-1">Monitoring énergétique, optimisation compute, Right-sizing, GreenOps</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Carbon footprint reduction, cloud cost reduction, digital sobriety</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Réduction de l'empreinte carbone, diminution du coût cloud, sobriété numérique</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Testing & Quality</h4>
                 <p className="text-slate-600 text-sm mb-1">Jest, RSpec, Cypress, Playwright, TDD/BDD, QA automatisée</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Continuous quality, end-to-end testing, integrated quality pipelines</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Qualité continue, tests end-to-end, pipelines qualité intégrés</p>
               </div>
             </div>
           </section>
 
-          {/* Education & Certifications */}
+          {/* Formation & Certifications */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-slate-800 pb-2 mb-6 text-slate-900">
-              EDUCATION & CERTIFICATIONS
+              FORMATION & CERTIFICATIONS
             </h2>
 
             <div className="space-y-4">
               <div>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
-                  <span className="font-semibold text-slate-800">Master's in Computer Science — SUPEMIR (Casablanca) — 2022</span>
+                  <span className="font-semibold text-slate-800">Master en Informatique — SUPEMIR (Casablanca) — 2022</span>
                 </div>
                 <p className="text-slate-600 text-sm leading-tight">
-                  Degree recognized by the Moroccan State, specialization in Computer Engineering & Technological Innovation, Software Engineering / Data Science option.
+                  Diplôme reconnu par l'État marocain, spécialisation en Génie Informatique & Innovation Technologique, option Génie Logiciel / Data Science.
                 </p>
               </div>
 
@@ -486,10 +486,10 @@ export default function App() {
               </div>
 
               <div className="border-t border-slate-200 pt-4 mt-4">
-                <h4 className="font-semibold text-slate-800 mb-2">Languages</h4>
+                <h4 className="font-semibold text-slate-800 mb-2">Langues</h4>
                 <div className="flex flex-wrap gap-4 text-slate-700">
-                  <span><strong>French :</strong> Level C1 (Native)</span>
-                  <span><strong>English :</strong> Level B2 (Professional)</span>
+                  <span><strong>Français :</strong> Niveau C1 (Langue maternelle)</span>
+                  <span><strong>Anglais :</strong> Niveau B2 (Professionnel)</span>
                 </div>
               </div>
             </div>

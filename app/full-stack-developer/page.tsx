@@ -131,7 +131,7 @@ export default function FullStackDeveloperResume() {
                   Full-Stack Developer
                 </p>
                 <div className="text-green-300 text-sm leading-relaxed">
-                  Je construis des applications web scalables de bout en bout
+                  Building scalable end-to-end web applications
                 </div>
               </div>
             </div>
@@ -160,44 +160,44 @@ export default function FullStackDeveloperResume() {
         {/* Content */}
         <div className="p-8">
 
-          {/* Profil Professionnel */}
+          {/* Professional Profile */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-4 text-slate-900">
-              PROFIL PROFESSIONNEL
+              PROFESSIONAL PROFILE
             </h2>
 
             <p className="text-slate-700 mb-4 leading-tight">
-              Développeur Full-Stack expérimenté spécialisé dans la création d'applications web scalables de bout en bout. Expert en architectures propres et optimisation des performances pour des plateformes haute charge.
+              Experienced Full-Stack Developer specialized in building scalable end-to-end web applications. Expert in clean architectures and performance optimization for high-traffic platforms.
             </p>
 
             <p className="text-slate-700 mb-4 leading-tight">
-              Chez DabaDoc, je développe et maintiens des applications web complètes servant plus de 300 000 utilisateurs mensuels. Mon approche full-stack me permet de livrer des solutions intégrées : du front-end réactif aux APIs robustes, en passant par des bases de données optimisées.
+              At DabaDoc, I develop and maintain complete web applications serving over 300,000 monthly users. My full-stack approach enables me to deliver integrated solutions: from reactive front-ends to robust APIs, through optimized databases.
             </p>
 
             <p className="text-slate-700 mb-3 font-medium">
-              Spécialisation en applications d'affaires :
+              Specialization in business applications:
             </p>
 
             <ul className="text-slate-700 space-y-2 ml-4">
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span><strong>Dashboards et panneaux d'administration</strong> : Interfaces intuitives pour la gestion des données et la prise de décision</span>
+                <span><strong>Dashboards and administration panels</strong>: Intuitive interfaces for data management and decision-making</span>
               </li>
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span><strong>Systèmes de paiement et intégrations</strong> : Solutions sécurisées pour les transactions financières</span>
+                <span><strong>Payment systems and integrations</strong>: Secure solutions for financial transactions</span>
               </li>
               <li className="flex items-start">
                 <span className="text-slate-500 mr-2 mt-1">•</span>
-                <span><strong>Applications ERP-like</strong> : Systèmes intégrés pour la gestion d'entreprise et l'automatisation des processus</span>
+                <span><strong>ERP-like applications</strong>: Integrated systems for enterprise management and process automation</span>
               </li>
             </ul>
           </section>
 
-          {/* Domaines d'Expertise */}
+          {/* Areas of Expertise */}
 <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-6 text-slate-900">
-              DOMAINES D'EXPERTISE
+              AREAS OF EXPERTISE
   </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -209,75 +209,75 @@ export default function FullStackDeveloperResume() {
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Développement end-to-end : conception, développement, déploiement et maintenance</span>
+                    <span>End-to-end development: design, development, deployment and maintenance</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Architecture propre et modulaire pour applications scalables</span>
+                    <span>Clean and modular architecture for scalable applications</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Optimisation des performances : front-end, back-end et base de données</span>
-                  </li>
-      </ul>
-    </div>
-
-              <div className="bg-slate-50 p-4 rounded-sm">
-                <h3 className="text-lg font-semibold mb-3 text-slate-800">
-        Applications d'Affaires
-      </h3>
-                <ul className="text-slate-700 space-y-2">
-                  <li className="flex items-start">
-                    <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Dashboards administratifs et tableaux de bord métier</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Systèmes de paiement intégrés et sécurisés</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>ERP et systèmes de gestion d'entreprise</span>
+                    <span>Performance optimization: front-end, back-end and database</span>
                   </li>
       </ul>
     </div>
 
               <div className="bg-slate-50 p-4 rounded-sm">
                 <h3 className="text-lg font-semibold mb-3 text-slate-800">
-        APIs & Intégrations
+        Business Applications
       </h3>
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>APIs RESTful et GraphQL pour communications robustes</span>
+                    <span>Administrative dashboards and business intelligence panels</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Authentification et autorisation : JWT, OAuth, sessions sécurisées</span>
+                    <span>Integrated and secure payment systems</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Intégrations tierces : services de paiement, APIs externes, webhooks</span>
+                    <span>ERP and enterprise management systems</span>
                   </li>
       </ul>
     </div>
 
               <div className="bg-slate-50 p-4 rounded-sm">
                 <h3 className="text-lg font-semibold mb-3 text-slate-800">
-        Performance & Scalabilité
+        APIs & Integrations
       </h3>
                 <ul className="text-slate-700 space-y-2">
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Optimisation des performances : mise en cache, indexation, requêtes optimisées</span>
+                    <span>RESTful and GraphQL APIs for robust communications</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Architecture scalable : microservices, load balancing, CDN</span>
+                    <span>Authentication and authorization: JWT, OAuth, secure sessions</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-slate-500 mr-2 mt-1">•</span>
-                    <span>Monitoring et observabilité : métriques, logging, alerting</span>
+                    <span>Third-party integrations: payment services, external APIs, webhooks</span>
+                  </li>
+      </ul>
+    </div>
+
+              <div className="bg-slate-50 p-4 rounded-sm">
+                <h3 className="text-lg font-semibold mb-3 text-slate-800">
+        Performance & Scalability
+      </h3>
+                <ul className="text-slate-700 space-y-2">
+                  <li className="flex items-start">
+                    <span className="text-slate-500 mr-2 mt-1">•</span>
+                    <span>Performance optimization: caching, indexing, optimized queries</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-slate-500 mr-2 mt-1">•</span>
+                    <span>Scalable architecture: microservices, load balancing, CDN</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-slate-500 mr-2 mt-1">•</span>
+                    <span>Monitoring and observability: metrics, logging, alerting</span>
                   </li>
       </ul>
     </div>
@@ -285,10 +285,10 @@ export default function FullStackDeveloperResume() {
   </div>
 </section>
 
-          {/* Parcours Professionnel */}
+          {/* Professional Experience */}
         <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-6 text-slate-900">
-              PARCOURS PROFESSIONNEL
+              PROFESSIONAL EXPERIENCE
   </h2>
 
             {/* Technical Lead */}
@@ -297,29 +297,29 @@ export default function FullStackDeveloperResume() {
                 <h3 className="text-xl font-semibold text-slate-800">
                   Full-Stack Developer & Technical Lead
                 </h3>
-                <span className="text-slate-600 font-medium">Janvier 2024 – Présent</span>
+                <span className="text-slate-600 font-medium">January 2024 – Present</span>
               </div>
               <div className="mb-2">
                 <span className="text-lg text-slate-700 font-medium">DabaDoc</span>
-                <span className="text-slate-600 ml-2">• Plateforme de télémédecine</span>
+                <span className="text-slate-600 ml-2">• Telemedicine platform</span>
     </div>
 
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Développement full-stack d'une plateforme complète : front-end React/Angular, APIs Rails, base PostgreSQL</span>
+                  <span>Full-stack development of a complete platform: React/Angular front-end, Rails APIs, PostgreSQL database</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Conception et implémentation de systèmes de paiement intégrés avec sécurisation des transactions</span>
+                  <span>Design and implementation of integrated payment systems with transaction security</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Développement de dashboards administratifs pour la gestion des rendez-vous et données patients</span>
+                  <span>Development of administrative dashboards for appointment and patient data management</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Optimisation de l'architecture pour supporter 300K+ utilisateurs avec amélioration de 40% des performances</span>
+                  <span>Architecture optimization to support 300K+ users with 40% performance improvement</span>
                 </li>
     </ul>
   </div>
@@ -331,29 +331,29 @@ export default function FullStackDeveloperResume() {
                 <h3 className="text-xl font-semibold text-slate-800">
                   Senior Full-Stack Developer
                 </h3>
-                <span className="text-slate-600 font-medium">Août 2022 – Décembre 2023</span>
+                <span className="text-slate-600 font-medium">August 2022 – December 2023</span>
               </div>
               <div className="mb-2">
                 <span className="text-lg text-slate-700 font-medium">DabaDoc</span>
-                <span className="text-slate-600 ml-2">• Plateforme de télémédecine</span>
+                <span className="text-slate-600 ml-2">• Telemedicine platform</span>
     </div>
 
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Refonte complète du front-end : migration vers React/Next.js pour interfaces plus performantes</span>
+                  <span>Complete front-end overhaul: migration to React/Next.js for more performant interfaces</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Développement d'APIs REST robustes avec authentification JWT pour applications mobiles et web</span>
+                  <span>Development of robust REST APIs with JWT authentication for mobile and web applications</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Intégration de systèmes de paiement externes et gestion sécurisée des données sensibles</span>
+                  <span>Integration of external payment systems and secure management of sensitive data</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Optimisation des workflows métier : automatisation des processus de réservation et notifications</span>
+                  <span>Business workflow optimization: automation of booking processes and notifications</span>
                 </li>
     </ul>
   </div>
@@ -370,104 +370,104 @@ export default function FullStackDeveloperResume() {
                 <h3 className="text-xl font-semibold text-slate-800">
                   Full-Stack Web Developer
                 </h3>
-                <span className="text-slate-600 font-medium">Juillet 2020 – Juillet 2022</span>
+                <span className="text-slate-600 font-medium">July 2020 – July 2022</span>
               </div>
               <div className="mb-2">
                 <span className="text-lg text-slate-700 font-medium">Majorel</span>
-                <span className="text-slate-600 ml-2">• Services numériques pour Solocal / Pages Jaunes</span>
+                <span className="text-slate-600 ml-2">• Digital services for Solocal / Pages Jaunes</span>
     </div>
 
               <ul className="text-slate-700 space-y-2 mt-4">
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Développement d'applications web full-stack pour le marché français : e-commerce et services digitaux</span>
+                  <span>Full-stack web application development for the French market: e-commerce and digital services</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Conception d'interfaces utilisateur réactives avec optimisation SEO et performances</span>
+                  <span>Design of reactive user interfaces with SEO and performance optimization</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Intégration d'APIs externes : services de géolocalisation, paiements, et données tierces</span>
+                  <span>External API integration: geolocation services, payments, and third-party data</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-500 mr-3 mt-1 font-bold">•</span>
-                  <span>Livraison de solutions scalables avec respect des délais et standards de qualité élevés</span>
+                  <span>Delivery of scalable solutions respecting deadlines and high quality standards</span>
                 </li>
     </ul>
   </div>
 </section>
 
-          {/* Stack Technique */}
+          {/* Technical Skills */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-6 text-slate-900">
-              COMPÉTENCES TECHNIQUES
+              TECHNICAL SKILLS
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Front-End</h4>
                 <p className="text-slate-600 text-sm mb-1">React, Next.js, Angular, TypeScript, Tailwind CSS, Redux</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Interfaces réactives, SPAs, PWAs, optimisation UX et performances</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Reactive interfaces, SPAs, PWAs, UX and performance optimization</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Back-End</h4>
                 <p className="text-slate-600 text-sm mb-1">Node.js (NestJS/Express), Ruby on Rails, Python (FastAPI)</p>
-                <p className="text-slate-700 text-xs leading-tight">→ APIs scalables, architecture serveur, optimisation back-end</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Scalable APIs, server architecture, back-end optimization</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">Base de Données</h4>
+                <h4 className="font-bold text-slate-800 mb-1">Databases</h4>
                 <p className="text-slate-600 text-sm mb-1">PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Modélisation, optimisation requêtes, mise en cache, recherche</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Modeling, query optimization, caching, search</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
-                <h4 className="font-bold text-slate-800 mb-1">APIs & Authentification</h4>
+                <h4 className="font-bold text-slate-800 mb-1">APIs & Authentication</h4>
                 <p className="text-slate-600 text-sm mb-1">REST, GraphQL, JWT, OAuth, API Gateway, WebSockets</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Communication sécurisée, intégrations, temps réel</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Secure communication, integrations, real-time</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Testing & Quality</h4>
                 <p className="text-slate-600 text-sm mb-1">Jest, RSpec, Cypress, Playwright, TDD/BDD</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Tests automatisés, qualité continue, CI/CD</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Automated testing, continuous quality, CI/CD</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">DevOps & Cloud</h4>
                 <p className="text-slate-600 text-sm mb-1">Docker, AWS, Vercel, GitHub Actions, CI/CD</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Déploiement automatisé, scalabilité, monitoring</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Automated deployment, scalability, monitoring</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Business Applications</h4>
                 <p className="text-slate-600 text-sm mb-1">Dashboards, Admin Panels, ERP Systems, Payment Integration</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Solutions métier, automatisation, interfaces B2B</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Business solutions, automation, B2B interfaces</p>
               </div>
 
               <div className="bg-slate-50 p-1 rounded-sm">
                 <h4 className="font-bold text-slate-800 mb-1">Performance & Security</h4>
                 <p className="text-slate-600 text-sm mb-1">OWASP, HTTPS, Data Encryption, Performance Monitoring</p>
-                <p className="text-slate-700 text-xs leading-tight">→ Sécurité applicative, optimisation, conformité</p>
+                <p className="text-slate-700 text-xs leading-tight">→ Application security, optimization, compliance</p>
               </div>
             </div>
           </section>
 
-          {/* Formation & Certifications */}
+          {/* Education & Certifications */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold border-b-2 border-green-800 pb-2 mb-6 text-slate-900">
-              FORMATION & CERTIFICATIONS
+              EDUCATION & CERTIFICATIONS
             </h2>
 
             <div className="space-y-4">
               <div>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
-                  <span className="font-semibold text-slate-800">Master en Informatique — SUPEMIR (Casablanca) — 2022</span>
+                  <span className="font-semibold text-slate-800">Master's in Computer Science — SUPEMIR (Casablanca) — 2022</span>
                 </div>
                 <p className="text-slate-600 text-sm leading-tight">
-                  Diplôme reconnu par l'État marocain, spécialisation en Génie Informatique & Innovation Technologique, option Génie Logiciel / Data Science.
+                  Degree recognized by the Moroccan State, specialization in Computer Engineering & Technological Innovation, Software Engineering / Data Science option.
                 </p>
               </div>
 
@@ -480,10 +480,10 @@ export default function FullStackDeveloperResume() {
               </div>
 
               <div className="border-t border-slate-200 pt-4 mt-4">
-                <h4 className="font-semibold text-slate-800 mb-2">Langues</h4>
+                <h4 className="font-semibold text-slate-800 mb-2">Languages</h4>
                 <div className="flex flex-wrap gap-4 text-slate-700">
-                  <span><strong>Français :</strong> Niveau C1 (Langue maternelle)</span>
-                  <span><strong>Anglais :</strong> Niveau B2 (Professionnel)</span>
+                  <span><strong>French :</strong> Level C1 (Native)</span>
+                  <span><strong>English :</strong> Level B2 (Professional)</span>
                 </div>
               </div>
             </div>

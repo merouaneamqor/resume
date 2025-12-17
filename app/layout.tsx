@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Merouane Amqor - Technical Lead & Software Engineer",
-  description: "CV professionnel de Merouane Amqor - Leader technique spécialisé en architecture logicielle, DevOps et innovation numérique responsable",
+  description: "Professional resume of Merouane Amqor - Technical leader specialized in software architecture, DevOps and responsible digital innovation",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <body className="antialiased font-sans">
         {children}
       </body>
